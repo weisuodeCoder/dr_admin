@@ -1,0 +1,26 @@
+.dr-ban-select {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently*/
+}
+
+/* 清除浮动 */
+.dr-clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* dialog全局样式 */
+.dr-global-dialog-padding10>.el-dialog__body {
+    padding: 10px;
+}
